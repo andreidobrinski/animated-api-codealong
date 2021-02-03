@@ -1,0 +1,12 @@
+{
+  "name": "animated-api-codealong",
+  "displayName": "animated-api-codealong",
+  "expo": {
+    "name": "animated-api-codealong",
+    "slug": "animated-api-codealong",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
