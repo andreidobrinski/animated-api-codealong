@@ -8,7 +8,7 @@ export default function MultipleInterpolationExample() {
   function handlePress() {
     Animated.timing(animatedValue, {
       toValue: didSlideUp ? 0 : 1,
-      useNativeDriver: true,
+      useNativeDriver: false,
       duration: 300
     }).start()
     setDidSlideUp(!didSlideUp)
