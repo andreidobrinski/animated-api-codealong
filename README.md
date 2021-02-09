@@ -7,7 +7,7 @@
 ### 1. Clone this repo
 
 ```
-git clone git@github.com:drop-simon/animated-api-codealong.git
+git clone git@github.com:simonsteer/animated-api-codealong.git
 ```
 
 ### 2. Download Expo tools:
