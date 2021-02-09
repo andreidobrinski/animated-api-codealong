@@ -1,15 +1,15 @@
 import React, { useState } from "react"
-import { View, Animated, StyleSheet, Button } from "react-native"
+import { View, Animated, StyleSheet, Button, Easing } from "react-native"
 
 export default function MultipleInterpolationExample() {
   const [animatedValue] = useState(new Animated.Value(0))
   const [didSlideUp, setDidSlideUp] = useState(false)
 
   function handlePress() {
-    Animated.spring(animatedValue, {
+    Animated.timing(animatedValue, {
       toValue: didSlideUp ? 0 : 1,
-      tension: 200,
-      useNativeDriver: false
+      useNativeDriver: true,
+      duration: 300
     }).start()
     setDidSlideUp(!didSlideUp)
   }
