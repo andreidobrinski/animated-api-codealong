@@ -1,9 +1,9 @@
-import React, { useState } from "react"
+import React, { useRef, useState } from "react"
 import { View, Text, Animated, StyleSheet } from "react-native"
 import Slider from "@react-native-community/slider"
 
 export default function ColorExample() {
-  const [animatedValue] = useState(new Animated.Value(0))
+  const animatedValue = useRef(new Animated.Value(0)).current
   const [value, setValue] = useState(0)
 
   function handleValueChange(value: number) {
