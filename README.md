@@ -1,4 +1,4 @@
-# Demystifying React Native's Animated API
+# Animated API Codealong
 
 [talk slides can be found here](https://docs.google.com/presentation/d/1-9lbVlTlGBrlVyJ8bnolU4EwqLLoF0g7jHEpC4RAU7w/edit?usp=sharing)
 
@@ -26,3 +26,9 @@ expo start
 ```
 
 Scan QR code with Expo app (Android) or Camera app (iOS)
+
+## Other Stuff
+
+[Demystifying React Native's Animated API, Part 1](https://drop.engineering/demystifying-react-natives-animated-api-part-1-681da7ca4661)
+
+[Demystifying React Native's Animated API, Part 2](https://medium.com/@simonpsteer/demystifying-react-natives-animated-api-part-2-15f655a84f81#78da-70b217406453)
